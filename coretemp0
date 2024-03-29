@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Get the temperature of Core 0
+core0_temp=$(sensors | grep -i core | grep -i 0: | cut -d + -f 2 | cut -d "(" -f 1)
+
+echo "Core 0 Temperature: $core0_temp"
