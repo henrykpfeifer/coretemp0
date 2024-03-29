@@ -5,7 +5,8 @@ This shell script retrieves the temperature of Core 0 from the system sensors an
 ## Usage
 
 1. Make sure you have the \`lm-sensors\` package installed.
-2. Run the script: \`./coretemp0.sh\`
+2. Rename .txt file to coretemp0.sh
+3. Run the script: \`./coretemp0.sh\`
 
 ## Output
 
